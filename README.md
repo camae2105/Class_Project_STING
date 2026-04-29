@@ -9,6 +9,6 @@ It includes the full analysis pipeline used to process RNA-seq datasets and refi
 - **Scripts/**: All SLURM job scripts and Python scripts used in the pipeline  
 - **Metadata_examples/**: Example metadata files for differential expression analysis  
 - **Heatmaps/**: Heatmaps generated for the 155-gene and 37-gene signatures  
-- **Zscore_matrices/**: Z-score matrices used to generate the heatmaps (included within the Heatmaps folder for each dataset)
+- **Heatmaps/<dataset>_zscore.tsv**: Z-score matrices used to generate the heatmaps (included within the Heatmaps folder for each dataset)
 
 The folder containing the 155-gene heatmaps also includes the gene list obtained after cluster-based filtering, which was used to overlap the activation, knockout, and rescue experiments to generate the refined 37-gene signature.
